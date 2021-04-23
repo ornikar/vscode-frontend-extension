@@ -16,5 +16,8 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "scripts": {
+      "lint:prettier": "prettier --check ."
     }
 }
