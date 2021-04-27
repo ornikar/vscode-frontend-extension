@@ -1,0 +1,48 @@
+{
+  "Kitt import": {
+    "prefix": "kimport",
+    "body": "import {$1} from '@ornikar/kitt';",
+    "description": "Default kitt import"
+  },
+  "Kitt Button": {
+    "prefix": "kbutton",
+    "body": "<Button type=\"${1:primary}\" onClick={$2}>${3: Some content}</Button>",
+    "description": "Creates a kitt <Button /> component"
+  },
+  "Kitt Icon": {
+    "prefix": "kicon",
+    "body": "<Icon name=\"$1\" />",
+    "description": "Creates a kitt <Icon /> component"
+  },
+  "Kitt Modal": {
+    "prefix": "kmodal",
+    "body": [
+      "<Modal visible={$1} onClose={${2:() => setVisible(false)}}>",
+      "\t<Modal.Header>",
+      "\t\t<Typography.h5 variant=\"bold\">Some title</Typography.h5>",
+      "\t</Modal.Header>",
+      "\t<Modal.Body>",
+      "\t\tSome body",
+      "\t</Modal.Body>",
+      "\t<Modal.Footer>",
+      "\t\tSome footer",
+      "\t</Modal.Footer>",
+      "</Modal>",
+    ],
+    "description": "Creates a kitt <Modal /> component"
+  },
+  "Kitt Message": {
+    "prefix": "kmessage",
+    "body": "<Message type=\"$1\">$2</Message>",
+    "description": "Creates a kitt <Message /> component"
+  },
+  "Kitt Tooltip": {
+    "prefix": "ktooltip",
+    "body": [
+      "<Tooltip position=\"${1:top}\" content=\"$2\">",
+      "\t<Icon name=\"info\" />",
+      "</Tooltip>"
+    ],
+    "description": "Creates a kitt <Icon /> component"
+  }
+}
