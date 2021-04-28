@@ -1,0 +1,17 @@
+{
+  "npm.packageManager": "yarn",
+  "search.exclude": {
+    "**/yarn-error.log": true,
+    "**/yarn.lock": true
+  },
+
+  // save config
+  "editor.formatOnSave": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": false
+  },
+
+  // prettier formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
