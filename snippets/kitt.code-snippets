@@ -43,6 +43,6 @@
       "\t<Icon name=\"info\" />",
       "</Tooltip>"
     ],
-    "description": "Creates a kitt <Icon /> component"
+    "description": "Creates a kitt <Tooltip /> component"
   }
 }
