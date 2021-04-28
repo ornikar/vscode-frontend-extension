@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - "*"
+    branches:
+      - ci/release-workflow
 
 jobs:
   deploy:
