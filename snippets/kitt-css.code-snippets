@@ -1,6 +1,6 @@
 {
     "Small breakpoint": {
-      "prefix": "smallbp",
+      "prefix": "ksmallbp",
       "body": [
         "@media (--small-breakpoint) {",
         "\t${0}",
@@ -9,7 +9,7 @@
       "description": "Kitt 480px media query"
     },
     "Medium breakpoint": {
-      "prefix": "mediumbp",
+      "prefix": "kmediumbp",
       "body": [
         "@media (--medium-breakpoint) {",
         "\t${0}",
@@ -18,7 +18,7 @@
       "description": "Kitt 720px media query"
     },
     "Large breakpoint": {
-      "prefix": "largebp",
+      "prefix": "klargebp",
       "body": [
         "@media (--large-breakpoint) {",
         "\t${0}",
@@ -27,7 +27,7 @@
       "description": "Kitt 1024px media query"
     },
     "Wide breakpoint": {
-      "prefix": "widebp",
+      "prefix": "kwidebp",
       "body": [
         "@media (--wide-breakpoint) {",
         "\t${0}",
