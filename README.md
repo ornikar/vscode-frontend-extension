@@ -12,5 +12,15 @@
 
 ### Kitt
 
-| prefix | snippet |
-| ------ | ------- |
+| prefix    | snippet                                                                 |
+| --------- | ----------------------------------------------------------------------- |
+| kimport   | Imports Kitt npm package                                                |
+| kbutton   | Creates a kitt `<Button />` component                                   |
+| kicon     | Creates a kitt `<Icon />` component                                     |
+| kmodal    | Creates a kitt `<Modal />` component, with a header, body & footer      |
+| kmessage  | Creates a kitt `<Message />` component                                  |
+| ktooltip  | Creates a kitt `<Tooltip />` component, wrapping `<Icon name="info" />` |
+| ksmallbp  | Add Kitt 480px media query                                              |
+| kmediumbp | Add Kitt 768px media query                                              |
+| klargebp  | Add Kitt 1024px media query                                             |
+| kwidebp   | Add Kitt 1280px media query                                             |
