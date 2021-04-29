@@ -27,6 +27,18 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/kitt.code-snippets"
+      },
+      {
+        "language": "postcss",
+        "path": "./snippets/kitt-css.code-snippets"
       }
     ]
   },
