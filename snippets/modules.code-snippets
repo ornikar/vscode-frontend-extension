@@ -1,0 +1,32 @@
+{
+  "import": {
+    "prefix": "imt",
+    "body": ["import $2 from '$1';"],
+    "description": "Create a import"
+  },
+  "import type": {
+    "prefix": "imtt",
+    "body": ["import type { $2 } from '$1';"],
+    "description": "Create a import type"
+  },
+  "Named import": {
+    "prefix": "imtn",
+    "body": ["import { $2 } from '$1';"],
+    "description": "Create a named import"
+  },
+  "export": {
+    "prefix": "exp",
+    "body": ["export { $1 };"],
+    "description": "Create a export"
+  },
+  "export from": {
+    "prefix": "expf",
+    "body": ["export $2 from '$1';"],
+    "description": "Create a export from"
+  },
+  "export type from": {
+    "prefix": "exptf",
+    "body": ["export type { $2 } from '$1';"],
+    "description": "Create a export"
+  }
+}

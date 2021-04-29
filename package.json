@@ -17,6 +17,18 @@
   "contributes": {
     "snippets": [
       {
+        "language": "typescript",
+        "path": "./snippets/modules.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/modules.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
         "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       },
