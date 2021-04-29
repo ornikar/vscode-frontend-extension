@@ -22,6 +22,10 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/modules.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/react.code-snippets"
       }
     ]
