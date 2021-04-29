@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-node@v2
         if: ${{ steps.release.outputs.release_created }}
         with:
-          node-version: 12
+          node-version: 14
 
       - name: Cache dependencies
         if: ${{ steps.release.outputs.release_created }}
