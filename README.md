@@ -10,6 +10,26 @@
 
 ## Snippets
 
+### Generic
+
+| prefix | snippet                         |
+| ------ | ------------------------------- |
+| imt    | `import $2 from '$1';`          |
+| imtn   | `import { $2 } from '$1';`      |
+| imtt   | `import type { $2 } from '$1';` |
+| exp    | `export { $1 };`                |
+| expf   | `export $2 from '$1';`          |
+| expft  | `export type { $2 } from '$1';` |
+
+### React
+
+| prefix | snippet                               |
+| ------ | ------------------------------------- |
+| rimt   | `import React from 'react';`          |
+| rimtt  | `import type { $1 } from 'react';`    |
+| rfc    | React Function Component              |
+| rfcs   | React Function Component, with styles |
+
 ### Kitt
 
 | prefix | snippet |

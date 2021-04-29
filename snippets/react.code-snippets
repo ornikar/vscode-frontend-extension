@@ -1,0 +1,49 @@
+{
+  "import React": {
+    "prefix": "rimt",
+    "body": ["import React from 'react';"],
+    "description": "Create a \"react\" import"
+  },
+  "import type": {
+    "prefix": "rimtt",
+    "body": ["import type { $2 } from 'react';"],
+    "description": "Create a import type for \"react\""
+  },
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React, { ReactElement, ReactNode } from 'react';",
+      "",
+      "export interface ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props {",
+      "  children: NonNullable<ReactNode>;",
+      "}",
+      "",
+      "export function ${TM_DIRECTORY/^.+\\/(.*)$/$1/}({ children }: ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props): ReactElement {",
+      "  return (",
+      "    <div>{children}</div>",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "Create a React Function Component."
+  },
+  "React Function Component with Styles": {
+    "prefix": "rfcs",
+    "body": [
+      "import React, { ReactElement, ReactNode } from 'react';",
+      "import styles from './styles.module.css';",
+      "",
+      "export interface ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props {",
+      "  children: NonNullable<ReactNode>;",
+      "}",
+      "",
+      "export function ${TM_DIRECTORY/^.+\\/(.*)$/$1/}({ children }: ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props): ReactElement {",
+      "  return (",
+      "    <div className={styles.${TM_DIRECTORY/^.+\\/(.*)$/$1/}}>{children}</div>",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "Create a React Function Component."
+  }
+}
