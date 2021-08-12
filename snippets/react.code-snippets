@@ -12,7 +12,8 @@
   "React Function Component": {
     "prefix": "rfc",
     "body": [
-      "import React, { ReactElement, ReactNode } from 'react';",
+      "import React from 'react';",
+      "import type { ReactElement, ReactNode } from 'react';",
       "",
       "export interface ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props {",
       "  children: NonNullable<ReactNode>;",
@@ -30,7 +31,8 @@
   "React Function Component with Styles": {
     "prefix": "rfcs",
     "body": [
-      "import React, { ReactElement, ReactNode } from 'react';",
+      "import React from 'react';",
+      "import type { ReactElement, ReactNode } from 'react';",
       "import styles from './styles.module.css';",
       "",
       "export interface ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props {",
