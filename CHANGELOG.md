@@ -4,6 +4,18 @@ All notable changes to the "ornikar-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.0](https://www.github.com/ornikar/vscode-frontend-extension/compare/v1.0.0...v1.1.0) (2021-08-12)
+
+
+### Features
+
+* update react snippets with import type ([#11](https://www.github.com/ornikar/vscode-frontend-extension/issues/11)) ([b07c6de](https://www.github.com/ornikar/vscode-frontend-extension/commit/b07c6de846586729f78ebbe5bf5aa2a43f5c14dd))
+
+
+### Bug Fixes
+
+* invalid medium breakpoint description ([#10](https://www.github.com/ornikar/vscode-frontend-extension/issues/10)) ([2988550](https://www.github.com/ornikar/vscode-frontend-extension/commit/298855073b5a4c029a82bdca42d06cc1c30ab5b3))
+
 ## 1.0.0 (2021-04-29)
 
 
