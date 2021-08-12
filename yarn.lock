@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@ornikar/prettier-config@^3.3.0":
+"@ornikar/prettier-config@3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-3.3.0.tgz#15aaecdb5378d905263032f9bb539cc5739dcfae"
   integrity sha512-R900N5cExXX0d3e2ALHRyq3WmzRo8FktbClRmQb++I4r8u9zgi22B2IDdwKnrfbrHoqq2A2fhzUAw6luKEwhfw==
