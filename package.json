@@ -46,7 +46,7 @@
     "lint:prettier": "prettier --check ."
   },
   "devDependencies": {
-    "@ornikar/prettier-config": "3.3.5",
+    "@ornikar/prettier-config": "3.3.6",
     "prettier": "2.5.1",
     "vsce": "1.96.1"
   }
