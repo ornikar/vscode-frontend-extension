@@ -1,0 +1,12 @@
+{
+  "Theme shortcut for styled-components": {
+    "scope": "css",
+    "prefix": "sctheme",
+    "body": ["${({ theme }) => theme.$1}"]
+  },
+  "Prop shortcut for styled-components": {
+    "scope": "css",
+    "prefix": "scprop",
+    "body": ["${({ $1 }) => $2}"]
+  }
+}
