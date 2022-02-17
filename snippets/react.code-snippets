@@ -1,9 +1,4 @@
 {
-  "import React": {
-    "prefix": "rimt",
-    "body": ["import React from 'react';"],
-    "description": "Create a \"react\" import"
-  },
   "import type": {
     "prefix": "rimtt",
     "body": ["import type { $2 } from 'react';"],
@@ -12,7 +7,6 @@
   "React Function Component": {
     "prefix": "rfc",
     "body": [
-      "import React from 'react';",
       "import type { ReactElement, ReactNode } from 'react';",
       "",
       "export interface ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props {",
@@ -31,7 +25,6 @@
   "React Function Component with Styles": {
     "prefix": "rfcs",
     "body": [
-      "import React from 'react';",
       "import type { ReactElement, ReactNode } from 'react';",
       "import styles from './styles.module.css';",
       "",

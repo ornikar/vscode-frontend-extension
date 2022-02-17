@@ -25,7 +25,6 @@
 
 | prefix | snippet                               |
 | ------ | ------------------------------------- |
-| rimt   | `import React from 'react';`          |
 | rimtt  | `import type { $1 } from 'react';`    |
 | rfc    | React Function Component              |
 | rfcs   | React Function Component, with styles |
