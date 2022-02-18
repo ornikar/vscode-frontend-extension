@@ -1,8 +1,13 @@
 {
-  "import type": {
+  "Import from React": {
+    "prefix": "rimt",
+    "body": ["import { $1 } from 'react';"],
+    "description": "Import from \"react\" lib"
+  },
+  "Import type from React": {
     "prefix": "rimtt",
-    "body": ["import type { $2 } from 'react';"],
-    "description": "Create a import type for \"react\""
+    "body": ["import type { $1 } from 'react';"],
+    "description": "Import type from \"react\" lib"
   },
   "React Function Component": {
     "prefix": "rfc",
