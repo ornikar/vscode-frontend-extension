@@ -4,6 +4,14 @@ All notable changes to the "ornikar-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.2.0](https://www.github.com/ornikar/vscode-frontend-extension/compare/v1.1.0...v1.2.0) (2022-02-18)
+
+
+### Features
+
+* add css snippets file for styled-components ([#29](https://www.github.com/ornikar/vscode-frontend-extension/issues/29)) ([5f8a62f](https://www.github.com/ornikar/vscode-frontend-extension/commit/5f8a62f297d3dec3382b880ad3ab8195811563e5))
+* remove unused react imports in snippets and rimt snippet [no issue] ([#31](https://www.github.com/ornikar/vscode-frontend-extension/issues/31)) ([cbb0db9](https://www.github.com/ornikar/vscode-frontend-extension/commit/cbb0db9f0501e1bc4c7b326bb399ef1e979a60c3))
+
 ## [1.1.0](https://www.github.com/ornikar/vscode-frontend-extension/compare/v1.0.0...v1.1.0) (2021-08-12)
 
 
