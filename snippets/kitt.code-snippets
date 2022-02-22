@@ -4,6 +4,11 @@
     "body": "import {$1} from '@ornikar/kitt';",
     "description": "Default kitt import"
   },
+  "Kitt-universal import": {
+    "prefix": "kuimport",
+    "body": "import {$1} from '@ornikar/kitt-universal';",
+    "description": "Default kitt import"
+  },
   "Kitt Button": {
     "prefix": "kbutton",
     "body": "<Button type=\"${1:primary}\" onClick={$2}>${3: Some content}</Button>",
