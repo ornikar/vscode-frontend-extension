@@ -31,6 +31,14 @@
 | rnfc   | React Native Function Component, with styled-components              |
 | rfcs   | React Function Component, with styles                                |
 
+### Styled-Components
+
+| prefix        | snippet                                                               |
+| ------------- | --------------------------------------------------------------------- |
+| sctheme       | `${({ theme }) => theme.$1}`                                          |
+| scspacing     | `${({ theme }) => theme.kitt.spacing * $1}px`                         |
+| scprop        | `${({ $1 }) => $2}`                                                   |
+
 ### Kitt
 
 | prefix    | snippet                                                                 |
