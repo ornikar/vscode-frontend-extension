@@ -23,21 +23,21 @@
 
 ### React
 
-| prefix | snippet                                                              |
-| ------ | -------------------------------------------------------------------- |
-| rimt   | `import { $1 } from 'react';`                                        |
-| rimtt  | `import type { $1 } from 'react';`                                   |
-| rfc    | React Function Component                                             |
-| rnfc   | React Native Function Component, with styled-components              |
-| rfcs   | React Function Component, with styles                                |
+| prefix | snippet                                                 |
+| ------ | ------------------------------------------------------- |
+| rimt   | `import { $1 } from 'react';`                           |
+| rimtt  | `import type { $1 } from 'react';`                      |
+| rfc    | React Function Component                                |
+| rnfc   | React Native Function Component, with styled-components |
+| rfcs   | React Function Component, with styles                   |
 
 ### Styled-Components
 
-| prefix        | snippet                                                               |
-| ------------- | --------------------------------------------------------------------- |
-| sctheme       | `${({ theme }) => theme.$1}`                                          |
-| scspacing     | `${({ theme }) => theme.kitt.spacing * $1}px`                         |
-| scprop        | `${({ $1 }) => $2}`                                                   |
+| prefix    | snippet                                       |
+| --------- | --------------------------------------------- |
+| sctheme   | `${({ theme }) => theme.$1}`                  |
+| scspacing | `${({ theme }) => theme.kitt.spacing * $1}px` |
+| scprop    | `${({ $1 }) => $2}`                           |
 
 ### Kitt
 
