@@ -23,18 +23,28 @@
 
 ### React
 
-| prefix | snippet                               |
-| ------ | ------------------------------------- |
-| rimt   | `import { $1 } from 'react';`         |
-| rimtt  | `import type { $1 } from 'react';`    |
-| rfc    | React Function Component              |
-| rfcs   | React Function Component, with styles |
+| prefix | snippet                                                 |
+| ------ | ------------------------------------------------------- |
+| rimt   | `import { $1 } from 'react';`                           |
+| rimtt  | `import type { $1 } from 'react';`                      |
+| rfc    | React Function Component                                |
+| rnfc   | React Native Function Component, with styled-components |
+| rfcs   | React Function Component, with styles                   |
+
+### Styled-Components
+
+| prefix    | snippet                                       |
+| --------- | --------------------------------------------- |
+| sctheme   | `${({ theme }) => theme.$1}`                  |
+| scspacing | `${({ theme }) => theme.kitt.spacing * $1}px` |
+| scprop    | `${({ $1 }) => $2}`                           |
 
 ### Kitt
 
 | prefix    | snippet                                                                 |
 | --------- | ----------------------------------------------------------------------- |
-| kimport   | Imports Kitt npm package                                                |
+| kimt      | Imports Kitt npm package                                                |
+| kuimt     | Imports Kitt universal npm package                                      |
 | kbutton   | Creates a kitt `<Button />` component                                   |
 | kicon     | Creates a kitt `<Icon />` component                                     |
 | kmodal    | Creates a kitt `<Modal />` component, with a header, body & footer      |

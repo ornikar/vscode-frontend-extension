@@ -27,6 +27,29 @@
     ],
     "description": "Create a React Function Component."
   },
+  "React Native Function Component": {
+    "prefix": "rnfc",
+    "body": [
+      "import type { ReactElement, ReactNode } from 'react';",
+      "import styled from 'styled-components/native';",
+      "",
+      "const ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Container = styled.View`",
+      "\t",
+      "`;",
+      "",
+      "export interface ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props {",
+      "  children: NonNullable<ReactNode>;",
+      "}",
+      "",
+      "export function ${TM_DIRECTORY/^.+\\/(.*)$/$1/}({ children }: ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props): ReactElement {",
+      "  return (",
+      "    <${TM_DIRECTORY/^.+\\/(.*)$/$1/}Container>{children}</${TM_DIRECTORY/^.+\\/(.*)$/$1/}Container>",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "Create a React Function Component with styled-components/native."
+  },
   "React Function Component with Styles": {
     "prefix": "rfcs",
     "body": [
