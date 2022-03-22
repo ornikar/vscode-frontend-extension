@@ -1,11 +1,11 @@
 {
   "Kitt import": {
-    "prefix": "kimport",
+    "prefix": "kimt",
     "body": "import {$1} from '@ornikar/kitt';",
     "description": "Default kitt import"
   },
   "Kitt-universal import": {
-    "prefix": "kuimport",
+    "prefix": "kuimt",
     "body": "import {$1} from '@ornikar/kitt-universal';",
     "description": "Default kitt import"
   },
@@ -32,7 +32,7 @@
       "\t<Modal.Footer>",
       "\t\tSome footer",
       "\t</Modal.Footer>",
-      "</Modal>",
+      "</Modal>"
     ],
     "description": "Creates a kitt <Modal /> component"
   },
@@ -43,11 +43,7 @@
   },
   "Kitt Tooltip": {
     "prefix": "ktooltip",
-    "body": [
-      "<Tooltip position=\"${1:top}\" content=\"$2\">",
-      "\t<Icon name=\"info\" />",
-      "</Tooltip>"
-    ],
+    "body": ["<Tooltip position=\"${1:top}\" content=\"$2\">", "\t<Icon name=\"info\" />", "</Tooltip>"],
     "description": "Creates a kitt <Tooltip /> component"
   }
 }

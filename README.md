@@ -43,8 +43,8 @@
 
 | prefix    | snippet                                                                 |
 | --------- | ----------------------------------------------------------------------- |
-| kimport   | Imports Kitt npm package                                                |
-| kuimport  | Imports Kitt universal npm package                                      |
+| kimt      | Imports Kitt npm package                                                |
+| kuimt     | Imports Kitt universal npm package                                      |
 | kbutton   | Creates a kitt `<Button />` component                                   |
 | kicon     | Creates a kitt `<Icon />` component                                     |
 | kmodal    | Creates a kitt `<Modal />` component, with a header, body & footer      |
