@@ -48,6 +48,6 @@
   "devDependencies": {
     "@ornikar/prettier-config": "4.0.5",
     "prettier": "2.6.2",
-    "vsce": "1.96.1"
+    "vsce": "2.7.0"
   }
 }
