@@ -43,7 +43,7 @@ jobs:
 
       - name: Publish to Visual Studio Marketplace
         if: ${{ steps.release.outputs.release_created }}
-        uses: HaaLeo/publish-vscode-extension@v0
+        uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
