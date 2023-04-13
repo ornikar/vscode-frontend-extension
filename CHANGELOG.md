@@ -4,6 +4,15 @@ All notable changes to the "ornikar-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.4.0](https://www.github.com/ornikar/vscode-frontend-extension/compare/v1.3.0...v1.4.0) (2023-04-13)
+
+
+### Features
+
+* remove legacy kitt css snippets ([c5f20a6](https://www.github.com/ornikar/vscode-frontend-extension/commit/c5f20a6e65e5b0b86aff1e67799d348dd948fcb3))
+* remove legacy styled-components snippets ([fc750a2](https://www.github.com/ornikar/vscode-frontend-extension/commit/fc750a2518b28e5809c64c23bd3f705236f67f56))
+* update kitt snippets for kitt-u ([ca35853](https://www.github.com/ornikar/vscode-frontend-extension/commit/ca3585356ccc7876a00533c784d2fd73c92b91d7))
+
 ## [1.3.0](https://www.github.com/ornikar/vscode-frontend-extension/compare/v1.2.0...v1.3.0) (2022-04-13)
 
 
