@@ -31,26 +31,13 @@
 | rnfc   | React Native Function Component, with styled-components |
 | rfcs   | React Function Component, with styles                   |
 
-### Styled-Components
-
-| prefix    | snippet                                       |
-| --------- | --------------------------------------------- |
-| sctheme   | `${({ theme }) => theme.$1}`                  |
-| scspacing | `${({ theme }) => theme.kitt.spacing * $1}px` |
-| scprop    | `${({ $1 }) => $2}`                           |
-
 ### Kitt
 
-| prefix    | snippet                                                                 |
-| --------- | ----------------------------------------------------------------------- |
-| kimt      | Imports Kitt npm package                                                |
-| kuimt     | Imports Kitt universal npm package                                      |
-| kbutton   | Creates a kitt `<Button />` component                                   |
-| kicon     | Creates a kitt `<Icon />` component                                     |
-| kmodal    | Creates a kitt `<Modal />` component, with a header, body & footer      |
-| kmessage  | Creates a kitt `<Message />` component                                  |
-| ktooltip  | Creates a kitt `<Tooltip />` component, wrapping `<Icon name="info" />` |
-| ksmallbp  | Add Kitt 480px media query                                              |
-| kmediumbp | Add Kitt 768px media query                                              |
-| klargebp  | Add Kitt 1024px media query                                             |
-| kwidebp   | Add Kitt 1280px media query                                             |
+| prefix   | snippet                                                            |
+| -------- | ------------------------------------------------------------------ |
+| kimt     | Imports Kitt npm package                                           |
+| kuimt    | Imports Kitt universal npm package                                 |
+| kbutton  | Creates a kitt `<Button />` component                              |
+| kicon    | Creates a kitt `<Icon />` component                                |
+| kmodal   | Creates a kitt `<Modal />` component, with a header, body & footer |
+| kmessage | Creates a kitt `<Message />` component                             |
