@@ -4,6 +4,13 @@ All notable changes to the "ornikar-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [1.5.1](https://www.github.com/ornikar/vscode-frontend-extension/compare/v1.5.0...v1.5.1) (2023-04-13)
+
+
+### Bug Fixes
+
+* add missing vscode in engines ([e77c9cb](https://www.github.com/ornikar/vscode-frontend-extension/commit/e77c9cb5b80a72083bfc8e986e08033790538f99))
+
 ## [1.5.0](https://www.github.com/ornikar/vscode-frontend-extension/compare/v1.4.0...v1.5.0) (2023-04-13)
 
 
