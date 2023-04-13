@@ -9,7 +9,7 @@
   "license": "MIT",
   "icon": "images/logo-512x512.png",
   "engines": {
-    "vscode": "^1.55.0"
+    "node": ">=16.10.0"
   },
   "categories": [
     "Snippets"
@@ -43,11 +43,15 @@
     ]
   },
   "scripts": {
-    "lint:prettier": "prettier --check ."
+    "lint:eslint:fix": "yarn lint:eslint --fix",
+    "lint:prettier": "$(yarn bin ornikar-prettier-check)",
+    "lint:prettier:fix": "$(yarn bin ornikar-prettier-fix)"
   },
   "devDependencies": {
-    "@ornikar/prettier-config": "4.0.5",
-    "prettier": "2.6.2",
+    "@ornikar/prettier-config": "6.0.6",
+    "@ornikar/repo-config": "10.4.3",
+    "prettier": "2.8.7",
     "vsce": "2.7.0"
-  }
+  },
+  "packageManager": "yarn@3.5.0"
 }

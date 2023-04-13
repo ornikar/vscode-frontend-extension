@@ -1,6 +1,7 @@
 {
   "npm.packageManager": "yarn",
   "search.exclude": {
+    "**/.yarn": true,
     "**/yarn-error.log": true,
     "**/yarn.lock": true
   },
@@ -9,9 +10,26 @@
   "editor.formatOnSave": true,
   "eslint.codeActionsOnSave.mode": "all",
   "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
     "source.organizeImports": false
   },
 
-  // prettier formatter
+  // jest config
+  "jest.autoRun": {
+    "watch": false,
+    "onStartup": []
+  },
+
+  // eslint config
+  "eslint.workingDirectories": ["."],
+  "eslint.useESLintClass": true,
+  "eslint.options": {
+    "resolvePluginsRelativeTo": ".",
+    "reportUnusedDisableDirectives": "error"
+  },
+  "eslint.lintTask.enable": true,
+
+  // eslint & prettier formatter
+  "eslint.format.enable": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
