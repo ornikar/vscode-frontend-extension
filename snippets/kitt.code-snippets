@@ -11,7 +11,7 @@
   },
   "Kitt Button": {
     "prefix": "kbutton",
-    "body": "<Button type=\"${1:primary}\" onClick={$2}>${3: Some content}</Button>",
+    "body": "<Button type=\"${1:primary}\" onPress={$2}>${3: Some content}</Button>",
     "description": "Creates a kitt <Button /> component"
   },
   "Kitt Icon": {
@@ -43,7 +43,7 @@
   },
   "Kitt Tooltip": {
     "prefix": "ktooltip",
-    "body": ["<Tooltip position=\"${1:top}\" content=\"$2\">", "\t<Icon name=\"info\" />", "</Tooltip>"],
+    "body": ["<Tooltip position=\"${1:top}\" content=\"$2\">", "\t<TypographyIcon icon={<EyeIcon />} />", "</Tooltip>"],
     "description": "Creates a kitt <Tooltip /> component"
   }
 }
