@@ -35,10 +35,6 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/kitt.code-snippets"
-      },
-      {
-        "language": "postcss",
-        "path": "./snippets/kitt-css.code-snippets"
       }
     ]
   },
