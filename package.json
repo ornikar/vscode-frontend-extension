@@ -41,8 +41,8 @@
   },
   "scripts": {
     "lint:eslint:fix": "yarn lint:eslint --fix",
-    "lint:prettier": "$(yarn bin ornikar-prettier-check)",
-    "lint:prettier:fix": "$(yarn bin ornikar-prettier-fix)"
+    "lint:prettier": "prettier --no-error-on-unmatched-pattern --check . '**/.env*' '**/*.env'",
+    "lint:prettier:fix": "prettier --no-error-on-unmatched-pattern --write . '**/.env*' '**/*.env'"
   },
   "devDependencies": {
     "@ornikar/prettier-config": "6.0.6",
