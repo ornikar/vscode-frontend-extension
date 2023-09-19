@@ -2,7 +2,7 @@
   "name": "vscode-ornikar-extension",
   "displayName": "Ornikar Extension",
   "publisher": "ornikar",
-  "repository": "ornikar/vscode-frontend-extension",
+  "repository": "https://github.com/ornikar/vscode-frontend-extension.git",
   "description": "Snippets for Ornikar Frontend Developers",
   "version": "1.5.1",
   "prettier": "@ornikar/prettier-config",
