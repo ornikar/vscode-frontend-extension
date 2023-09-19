@@ -12,14 +12,14 @@
   "React Function Component": {
     "prefix": "rfc",
     "body": [
-      "import type { ReactElement, ReactNode } from 'react';",
+      "import type { ReactNode } from 'react';",
       "import { View } from '@ornikar/kitt-universal';",
       "",
       "export interface ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props {",
       "  children: NonNullable<ReactNode>;",
       "}",
       "",
-      "export function ${TM_DIRECTORY/^.+\\/(.*)$/$1/}({ children }: ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props): ReactElement {",
+      "export function ${TM_DIRECTORY/^.+\\/(.*)$/$1/}({ children }: ${TM_DIRECTORY/^.+\\/(.*)$/$1/}Props): ReactNode {",
       "  return (",
       "    <View>{children}</View>",
       "  );",
