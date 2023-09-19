@@ -1,8 +1,16 @@
-# Change Log
+# Changelog
 
-All notable changes to the "ornikar-snippets" extension will be documented in this file.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.6.0](https://github.com/ornikar/vscode-frontend-extension/compare/v1.5.1...v1.6.0) (2023-09-19)
+
+
+### Features
+
+* update kitt imports ([27aebd8](https://github.com/ornikar/vscode-frontend-extension/commit/27aebd8b9fab97abfacd6904ddaf7415b39e3f38))
+* update rfc snippet ([51dc233](https://github.com/ornikar/vscode-frontend-extension/commit/51dc233b44c660a555477b0ff4d354d1a11a4464))
+
 
 ### [1.5.1](https://www.github.com/ornikar/vscode-frontend-extension/compare/v1.5.0...v1.5.1) (2023-04-13)
 
