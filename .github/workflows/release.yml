@@ -1,42 +1,55 @@
-name: release-please
+name: release
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: 'Dry run'
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
-  release-please:
+  release:
     runs-on: ubuntu-latest
     steps:
-      - uses: GoogleCloudPlatform/release-please-action@v3
-        id: release
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          release-type: node
-          package-name: release-please-action
-
-      # publish:
       - name: Checkout
-        # publication only occurs when a new release is created:
-        if: ${{ steps.release.outputs.release_created }}
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: 0
 
-      - uses: actions/setup-node@v2
-        if: ${{ steps.release.outputs.release_created }}
+      - uses: actions/setup-node@v3
         with:
           node-version: 18
 
       - name: Install Dependencies
-        if: ${{ steps.release.outputs.release_created }}
         run: yarn install --immutable --immutable-cache
 
+      - name: New version (dry run)
+        if: github.ref == 'refs/heads/main' && inputs.dry-run
+        run: yarn version --dry-run
+
+      - name: Configure Git user
+        if: github.ref == 'refs/heads/main' && !inputs.dry-run
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: New version
+        if: github.ref == 'refs/heads/main' && !inputs.dry-run
+        run: |
+          yarn version --create-release=github -m 'chore: release %v [skip ci]
+        env:
+          HUSKY: 0
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
+
       - name: Publish to Visual Studio Marketplace
-        if: ${{ steps.release.outputs.release_created }}
         uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
