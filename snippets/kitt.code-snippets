@@ -1,13 +1,13 @@
 {
   "Kitt import": {
     "prefix": "kimt",
-    "body": "import {$1} from '@ornikar/kitt';",
-    "description": "Default kitt import"
+    "body": "import {$1} from '@ornikar/kitt-universal';",
+    "description": "Default kitt-universal import"
   },
   "Kitt-universal import": {
     "prefix": "kuimt",
     "body": "import {$1} from '@ornikar/kitt-universal';",
-    "description": "Default kitt import"
+    "description": "Default kitt-universal import"
   },
   "Kitt Button": {
     "prefix": "kbutton",
