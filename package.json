@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@ornikar/prettier-config": "7.0.0",
-    "@ornikar/repo-config": "13.2.0",
+    "@ornikar/repo-config": "13.2.1",
     "@vscode/vsce": "2.21.1",
     "prettier": "2.8.8"
   },
